@@ -6,9 +6,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="borda">
-        <div id="contatos">
-            <div id="formulario">
+        <div class="borda">
+            <div class="dois">
                 <h1>Inscrição para a base do Palmeiras:</h1>
                 <form action="#" method="post">
                     <label for="1nome">Primeiro Nome:</label>
@@ -24,26 +23,7 @@
                     <input type="date" id="data" name="data"><br><br>
 
                     <label for="cdd">Cidade em que reside:</label>
-                    <input type="date" id="cdd" name="cdd"><br><br>
-
-                    <p>Em qual posição você costuma jogar?</p>
-                    <input type="radio" id="zagueiro" name="posicao" value="zagueiro" required>
-                    <label for="zagueiro">Zagueiro</label><br>
-                    <input type="radio" id="goleiro" name="posicao" value="goleiro" required>
-                    <label for="goleiro">Goleiro</label><br>
-                    <input type="radio" id="lateral" name="posicao" value="lateral" required>
-                    <label for="lateral">Lateral</label><br>
-                    <input type="radio" id="meio" name="posicao" value="meio" required>
-                    <label for="meio">Meio</label><br>
-                    <input type="radio" id="ponta" name="posicao" value="ponta" required>
-                    <label for="ponta">Ponta</label><br>
-                    <input type="radio" id="volante" name="posicao" value="volante" required>
-                    <label for="volante">Volante</label><br>
-                    <input type="radio" id="centro" name="posicao" value="centro" required>
-                    <label for="centro">Centro-Avante</label><br><br>
-
-                    <label for="teste">Selecione a data e hora que deseja para seu teste:</label>
-                    <input type="datetime-local" id="teste" name="teste"><br><br>
+                    <input type="text" id="cdd" name="cdd"><br><br>
 
                     <label for="numero">Escolha o número da sua camisa::</label>
                     <input type="number" id="numero" name="numero" min="1" max="99" required><br><br>
@@ -58,6 +38,9 @@
                     <input type="text" id="tamanho3" name="tamanho3" required><br><br>
 
                     <label for="documento">Insira um documento com foto:</label>
+                    <input type="file" id="documento" name="documento"><br><br>
+
+                    <label for="comprovante">Insira um documento com foto:</label>
                     <input type="file" id="documento" name="documento"><br><br>
 
                     <label for="telefone">Telefone:</label>
@@ -82,9 +65,39 @@
                     <button type="reset">Resetar</button>
                 </form>
             </div>
-        </div>
-    </div>
+            <div>
+                <div class="dois">
+                    <img src="gabriel-jesus-base-palmeiras.webp" alt="Foto base">
+                    
+                </div>
+                <div class="dois">
+                    <h1>Faça a inscreição para a peneira:</h1>
 
-    
+                    <label for="teste">Selecione a data que deseja para seu teste:</label>
+                    <input type="date" id="teste" name="teste"><br><br>
+
+                    <label for="testeh">Selecione a hora que deseja para seu teste:</label>
+                    <input type="time" id="testeh" name="testeh"><br><br>
+
+                    <p>Em qual posição você costuma jogar?</p>
+                    <input type="radio" id="zagueiro" name="posicao" value="zagueiro" required>
+                    <label for="zagueiro">Zagueiro</label><br>
+                    <input type="radio" id="goleiro" name="posicao" value="goleiro" required>
+                    <label for="goleiro">Goleiro</label><br>
+                    <input type="radio" id="lateral" name="posicao" value="lateral" required>
+                    <label for="lateral">Lateral</label><br>
+                    <input type="radio" id="meio" name="posicao" value="meio" required>
+                    <label for="meio">Meio</label><br>
+                    <input type="radio" id="ponta" name="posicao" value="ponta" required>
+                    <label for="ponta">Ponta</label><br>
+                    <input type="radio" id="volante" name="posicao" value="volante" required>
+                    <label for="volante">Volante</label><br>
+                    <input type="radio" id="centro" name="posicao" value="centro" required>
+                    <label for="centro">Centro-Avante</label><br><br>
+                </div>
+            </div>
+                
+            </div>
+        </div>                     
 </body>
 </html>

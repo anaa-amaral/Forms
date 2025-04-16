@@ -1,17 +1,39 @@
 body{ 
     margin: 10px;
     padding: 10px;
-    border: 10px;    
+    border: 15px;    
     background-color: rgb(116, 211, 116);
-    color: rgb(22, 90, 39);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(12, 63, 25);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     }
+    
 
     .borda{
+        display: flex;
+    }
+
+    .um{
         border-color: rgb(4, 78, 4);
-        border-style: solid;
+        border-style: solid ;
         padding: 50px;
         padding-right: 50px;
-        display: flex;
+        border-width: 5px;
+        border-radius: 30px;
+        margin: 10px;
+    }
+
+    .dois{
+        border-color: rgb(4, 78, 4);
+        border-style: solid ;
+        padding: 50px;
+        padding-right: 50px;
+        border-width: 5px;
+        border-radius: 30px;
+        margin: 10px;
+    }
+
+    img{
+        width: 450px;
+        height: 250px;
     }

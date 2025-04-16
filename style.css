@@ -16,8 +16,9 @@ body{
     .um{
         border-color: rgb(4, 78, 4);
         border-style: solid ;
-        padding: 50px;
+        padding: 10px;
         padding-right: 50px;
+        padding-bottom: 50px;
         border-width: 5px;
         border-radius: 30px;
         margin: 10px;

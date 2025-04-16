@@ -1,26 +1,17 @@
 body{ 
-    margin: 0px;
-    padding: 0px;    
-    background-color: rgb(69, 187, 69);
+    margin: 10px;
+    padding: 10px;
+    border: 10px;    
+    background-color: rgb(116, 211, 116);
     color: rgb(22, 90, 39);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
     }
 
-    #contatos{
-        position:fixed;
-        bottom: 20px;
-        right: 20px;
-        padding: 10px;
-        align-items: center;
-        background-color:rgb(22, 168, 3);
-        border-radius: 10px;
-        opacity: 0.7;
-        color: black;
-    }
-    
-    #formulario{
-        padding: 20px;
-        background-color:rgb(0, 150, 37);
-        text-align: left;
-        color: rgb(253, 253, 253);
+    .borda{
+        border-color: rgb(4, 78, 4);
+        border-style: solid;
+        padding: 50px;
+        padding-right: 50px;
+        display: flex;
     }

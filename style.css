@@ -34,9 +34,31 @@ body{
         margin: 10px;
     }
 
+    .tress{
+        border-color: rgb(4, 78, 4);
+        border-style: solid ;
+        padding: 50px;
+        padding-right: 50px;
+        border-width: 5px;
+        border-radius: 30px;
+        margin: 10px;
+    }
+
+    .cinco{
+        border-color: rgb(4, 78, 4);
+        border-style: solid ;
+        padding: 50px;
+        padding-right: 50px;
+        border-width: 5px;
+        border-radius: 30px;
+        margin: 10px;
+        display: flex;
+    }
+
     .tres{
         border-color: rgb(4, 78, 4);
         border-style: solid ;
+        background-color: rgb(221, 221, 221);
         padding: 50px;
         padding-right: 50px;
         border-width: 5px;
@@ -49,6 +71,32 @@ body{
     }
 
     img{
-        width: 450px;
-        height: 250px;
+        width: 510px;
+        height: 300px;
+        margin: 5px;
+    }
+
+    .im{
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+    }
+
+    #contatos{
+        position:fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px;
+        align-items: center;
+        background-color:rgb(51, 97, 51);
+        border-radius: 10px;
+        opacity: 0.7;
+        color: black;
+    }
+    
+    #formulario{
+        padding: 20px;
+        background-color:rgb(105, 163, 105);
+        text-align: left;
+        color: rgb(253, 253, 253);
     }
